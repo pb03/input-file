@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Input File Demo - Styling native file input</title>
+	<link rel="stylesheet" href="../input-file.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			background-color: #fafbfb;
+			color: #6b6b6b;
+			padding: 2em;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		form {
+			display: block;
+			width: 100%;
+			max-width: 460px;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+
+<body>
+
+	<form>
+		<input type="file" name="files" multiple>
+		<br><br>
+		<input type="file" name="files" multiple>
+	</form>
+
+	<script src="../input-file.min.js"></script>
+	<script>
+		new InputFile({
+			// options
+		});
+	</script>
+</body>
+
+</html>
