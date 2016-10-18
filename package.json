@@ -1,6 +1,6 @@
 {
   "name": "input-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny (1kb minified) javascript plugin which automatically stylizes the native input field.",
   "main": "input-file.js",
   "scripts": {
