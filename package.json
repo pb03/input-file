@@ -1,7 +1,7 @@
 {
   "name": "input-file",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tiny (1kb minified) javascript plugin which automatically stylizes the native input field.",
   "main": "input-file.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,19 @@
     "type": "git",
     "url": "https://github.com/pb03/input-file.git"
   },
+  "homepage": "https://github.com/pb03/input-file",
   "author": "Prasanjit Singh",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.0.0"
-  }
+  },
+  "keywords": [
+    "input",
+    "file",
+    "drag",
+    "drop",
+    "native"
+  ]
 }
