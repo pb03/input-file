@@ -35,7 +35,7 @@ A tiny (1kb minified) javascript plugin that automatically stylizes the native i
 
 ## Options
 | Property | Default | Description |
-|---|---|---|---|
+|---|---|---|
 | `buttonText` | 'Choose files' | Label for the button |
 | `hint` | 'or drag and drop files here' | Help text |
 | `message` | 'files chosen' | Message shown after selecting files |
