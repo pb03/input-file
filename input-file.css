@@ -1,3 +1,7 @@
+.inf__drop-area * {
+	box-sizing: border-box;
+}
+
 .inf__drop-area {
 	position: relative;
 	display: flex;
